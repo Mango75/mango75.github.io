@@ -3,5 +3,5 @@ layout: post
 title: This is my first test post!
 ---
 
-![This is a test picture]({{site.url}}/assets/tester.jpg)
+![This is a test picture]({{site.url}}/images/wostest.png)
 
