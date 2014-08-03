@@ -2,6 +2,6 @@
 layout: post
 title: This is my first test post!
 ---
-
-![This is a test picture]({{site.url}}/images/wostest.png)
+##Website for Annika Wik
+![This is a test picture]({{site.url}}/images/annika1.png)
 
