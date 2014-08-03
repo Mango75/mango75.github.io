@@ -1,6 +1,7 @@
 ---
 layout: post
 title: This is my first test post!
+picpic:{{site.url}}/images/annika1.png
 ---
 ##Website for Annika Wik
 ![This is a test picture]({{site.url}}/images/annika1.png)
@@ -9,5 +10,8 @@ title: This is my first test post!
 ![This is a test picture]({{site.url}}/images/annika4.png)
 ![This is a test picture]({{site.url}}/images/annika5.png)
 
+{{picpic}}
 ###Website for Annika Wik
+
+Responsive website for film
 
