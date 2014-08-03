@@ -1,9 +1,10 @@
 ---
 layout: post
 title: This is my first test post!
-picpic:{{site.url}}/images/annika1.png
 ---
+{%assign pf= ({{site.url}}/images/annika1.png) %}
 ##Website for Annika Wik
+{{pf}}
 ![This is a test picture]({{site.url}}/images/annika1.png)
 ![This is a test picture]({{site.url}}/images/annika2.png)
 ![This is a test picture]({{site.url}}/images/annika3.png)
