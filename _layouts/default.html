@@ -30,11 +30,10 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
+    <div class="wrapper-masthead container">
+      <div class="container row">
+        <header class="masthead clearfix col-md-6 col-sm-6 col-xs-12">
+          <a href="{{ site.baseurl }}/" class="site-avatar"></a>
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
@@ -48,13 +47,14 @@
       </div>
     </div>
 
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="container row col-md-12 col-sm-12 col-xs-12">
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      <div class="row">
         <footer class="footer">
+          <p class="contact-info"> Tel: 0731-597842 | mail: magnushansson@outlook.com</p>
           {% include svg-icons.html %}
         </footer>
       </div>
