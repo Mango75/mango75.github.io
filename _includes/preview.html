@@ -5,7 +5,7 @@
     <h2>{{post.title}}</h2>
     {% for i in images%}
       {% if i contains 'src' %}
-        {{i | prepend : '<img '}}
+        {{i | prepend : '<img  class="img-responsive"'}}
         {%break%}
       {%endif%}
     {%endfor%}
