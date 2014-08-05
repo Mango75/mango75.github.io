@@ -4,7 +4,10 @@
   <div class="description">
     <h2>{{post.title}}</h2>
     {% for i in images%}
-        {{i}}
+      {% if i contains 'src' %}
+        {{i | append : '<img'}}
+        {%break%}
+      {%endif%}
     {%endfor%}
     {{image}}
   </div>
