@@ -1,12 +1,10 @@
 {% assign images = post.content | split : '<img' %}
 <article class="preview">
-  <div class="description">
-    <h2>{{post.title}}</h2>
     {% for i in images%}
       {% if i contains 'src' %}
         {{i | prepend : '<img  class="img-responsive" '}}
         {%break%}
       {%endif%}
     {%endfor%}
-  </div>
+     <h2>{{ post.title }}</h2>
 </article>
