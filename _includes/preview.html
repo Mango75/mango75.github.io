@@ -1,8 +1,11 @@
-{% assign image = 'image-preview' %}
+{% assign images = post.content | split : <img %}
 <article class="preview">
   <img src="">
   <div class="description">
     <h2>{{post.title}}</h2>
+    {% for i in images%}
+        {{i}}
+    {%endfor%}
     {{image}}
   </div>
 </article>
