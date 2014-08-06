@@ -26,17 +26,17 @@
     <div class="container">
       <div class="container>
         <div class="row">
-        <header class="large-6 medium-6 small-12 columns">
-          <a href="{{ site.baseurl }}/" class="site-avatar"></a>
-          <div class="site-info col-md-6">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+        <header class="large-6 medium-6 small-12 columns large-centered medium-centered">
+            <div class="row">
+              <div class="large-6 medium-6 small-6 columns">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+              </div>            
+              <nav class="large-6 medium-6 small-6 columns">
+                <a href="{{ site.baseurl }}/">Portfolio</a>
+                <a href="{{ site.baseurl }}/about"> Om mig  | About</a>
+              </nav>
           </div>
-          
-          <nav class="col-md-6">
-            <a href="{{ site.baseurl }}/">Portfolio</a>
-            <a href="{{ site.baseurl }}/about"> Om mig  | About</a>
-          </nav>
         </header>
       </div>
       </div>
@@ -50,7 +50,7 @@
 
     <div class="wrapper-footer">
       <div class="row">
-        <footer class="footer">
+        <footer class="footer large-12 medium-12 small-12 columns">
           <p class="contact-info"> Tel: 0731-597842 | mail: magnushansson@outlook.com</p>
           {% include svg-icons.html %}
         </footer>
