@@ -68,12 +68,13 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-family: $raleway;
 }
 
 a {
   color: $darkerGray;
   text-decoration: none;
-	cursor: pointer;
+	cursor: pointer;f
   &:hover, &:active {
     color: $blue;
   }
@@ -191,7 +192,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue; 
+  font-family: $montserrat; 
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -201,6 +202,7 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  font-family: $montserrat;
   
   @include mobile {
     margin: 3px 0;
@@ -210,7 +212,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue; 
+  font-family: $montserrat; 
   font-size: 18px;
   
   @include mobile {
