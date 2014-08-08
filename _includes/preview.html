@@ -1,7 +1,7 @@
 {% assign images = post.content | split : '/>' %}
-<article class="preview">
+<article class="preview"><!--important to include the pics first-->
     {% for i in images%}
-      {% if i contains 'src' %}
+      {% if i contains '<img' %}
         {{i | append : '/>" '}}
         {%break%}
       {%endif%}
