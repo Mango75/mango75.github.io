@@ -168,40 +168,27 @@ nav {
   font-family: $montserrat; 
   font-size: 18px;
   background: #eee;  
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
+  padding: 25px 10px;
+  height: 100%;
   a {
     margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
   }
 }
 
 //
 // .main
 //
-
+#main{
+  padding:20px;
+}
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
 }
 
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
 
 .post { 
   blockquote {
