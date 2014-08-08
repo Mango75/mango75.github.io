@@ -15,7 +15,7 @@
 
 html {
   font-size: 100%;
-}
+  background-color: #0e0;}
 
 
 
@@ -160,18 +160,18 @@ img {
 }
 header{
 background-color: #ccc;
+padding-left: 0;
 }
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
   font-family: $montserrat; 
-  font-size: 18px;
+  font-size: 14px;
   background: #eee;  
-  padding: 25px 10px;
+  padding: 0 10px;
   height: 100%;
   a {
-    margin-left: 20px;
+    margin-left: 10px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
