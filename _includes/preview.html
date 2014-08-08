@@ -1,8 +1,8 @@
-{% assign images = post.content | split : '<img' %}
+{% assign images = post.content | split : '/>' %}
 <article class="preview">
     {% for i in images%}
       {% if i contains 'src' %}
-        {{i | prepend : '<img  class="img-responsive" '}}
+        {{i | append : '/>" '}}
         {%break%}
       {%endif%}
     {%endfor%}
