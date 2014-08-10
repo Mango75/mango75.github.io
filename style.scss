@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $white;
   font-weight: 600;  
   line-height: 1.7em;
-  margin: 1em 0 15px;
+  margin: 0.5em 0 15px;
   padding: 0;
 }
   
@@ -98,7 +98,7 @@ strong, b {
 
 img {
   max-width: 100%;
-  padding:30px 5%;
+  padding:30px 2.5%;
   border: none;
 }
 
@@ -161,8 +161,7 @@ padding-left: 0;
 nav {
   float: right;
   font-family: $montserrat; 
-  font-size: 14px;
-  background: $darkgreen;  
+  font-size: 14px; 
   padding: 0 10px;
   height: 100%;
   a {
@@ -179,7 +178,7 @@ nav {
 //
 #main{
   padding:20px;
-  background-color: $green;
+  background-color: $whiteo;
 }
 .posts > .post {
   padding: 2em;
