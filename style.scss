@@ -162,7 +162,7 @@ nav {
   float: right;
   font-family: $montserrat; 
   font-size: 14px;
-  background: #eee;  
+  background: $darkgreen;  
   padding: 0 10px;
   height: 100%;
   a {
@@ -179,7 +179,7 @@ nav {
 //
 #main{
   padding:20px;
-  background-color: #eef;
+  background-color: $green;
 }
 .posts > .post {
   padding: 2em;
