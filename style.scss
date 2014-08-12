@@ -135,7 +135,6 @@ img {
 /*********************/
 
 .site-info {
-  float: left;
 }
 
 .site-name {
@@ -155,7 +154,8 @@ img {
   font-family: $montserrat;
 }
 header{
-padding-left: 0;
+padding:50 0;
+background: $whiteo; 
 }
 
 nav {
@@ -221,7 +221,6 @@ FOOTER
 }
 
 footer {
-  padding: 20px 0;
   text-align: center !important;
 }
 
