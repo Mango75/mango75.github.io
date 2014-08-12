@@ -183,8 +183,12 @@ nav {
 }
 .posts > .post {
   padding: 2em;
+  border-top: 1px solid $whiteo;
+  border-bottom: 1px solid $whiteo;
 }
-
+/*************
+POST
+*************/
 
 .post { 
   blockquote {
@@ -205,17 +209,18 @@ nav {
     font-size: 15px;
   }
 }
-
+/**************
+FOOTER
+**************/
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  padding-top: 50px;
+  border-top: 1px solid $lightGray;
+  border-bottom: 1px solid $green;
 }
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  text-align: center !important;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
