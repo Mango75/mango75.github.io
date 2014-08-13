@@ -154,8 +154,9 @@ img {
   font-family: $montserrat;
 }
 header{
-padding:50px 0;
-background: $whiteo; 
+padding:50px 0 20px;
+background: $whiteo;
+border-bottom:1px solid $green; 
 }
 
 nav {
