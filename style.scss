@@ -188,11 +188,11 @@ nav {
   padding: 10px;
   border-top: 1px solid $whiteo;
   border-bottom: 1px solid $darkgreen;
-  p{
+}
+.preview p{
     border-top: 1px dotted $darkgreen;
     text-align: center;
     color:$green;
-  }
 }
 /*************
 POST
@@ -216,13 +216,13 @@ POST
     text-transform: uppercase;
     font-size: 15px;
   }
-  .post a{
+  a{
     color: $green;
   }
-  .entry p{
+}
+.post .entry p{
   color: $gray;
   }
-}
 /**************
 FOOTER
 **************/
