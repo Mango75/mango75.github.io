@@ -149,14 +149,12 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
   color: $green;
   font-size: 16px;
   font-family: $montserrat;
 }
 header{
-padding:50px 0 20px;
-border-bottom:1px solid $green; 
+padding:50px 0 20px; 
 }
 
 nav {
@@ -221,11 +219,10 @@ POST
   .post a{
     color: $green;
   }
-}
-.entry p:nth-child(3){
+  .entry p:nth-child(2){
   color: $gray;
+  }
 }
-
 /**************
 FOOTER
 **************/
