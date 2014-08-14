@@ -145,6 +145,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .site-description {
@@ -155,7 +156,6 @@ img {
 }
 header{
 padding:50px 0 20px;
-background: $whiteo;
 border-bottom:1px solid $green; 
 }
 
@@ -183,6 +183,7 @@ nav {
 }
 .posts > .post {
   padding: 2em;
+  margin: 10px 2.5%;
   border-top: 1px solid $whiteo;
   border-bottom: 1px solid $whiteo;
 }
