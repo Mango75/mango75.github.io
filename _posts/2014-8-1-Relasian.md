@@ -4,7 +4,7 @@ title: Relasian
 category: web
 ---
 
-	![picture from Relasian]({{site.url}}/images/rela1.png)
+![picture from Relasian]({{site.url}}/images/rela1.png)
 
 <ul class="clearing-thumbs" data-clearing> 
 	<li><img src="{{site.url}}/images/rela1.png" alt="Bild från Relasians webbplats"</li>
@@ -19,4 +19,4 @@ Webbplats för reseföretaget Relasian.
 
 Website for travel agent Relasian. 
 
-[tillbaka | back]({{site.url}})
+["tillbaka | back"]({{site.url}})
