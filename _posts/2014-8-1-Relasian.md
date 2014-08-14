@@ -1,10 +1,16 @@
 ---
 layout: post
 title: Relasian
-category: web
 ---
 
+<<<<<<< HEAD
 ![picture from Relasian]({{site.url}}/images/rela1.png)
+=======
+![This is a test picture]({{site.url}}/images/rela1.png)
+![This is a test picture]({{site.url}}/images/rela2.png)
+![This is a test picture]({{site.url}}/images/rela3.png)
+![This is a test picture]({{site.url}}/images/rela4.png)
+>>>>>>> parent of 60dab82... Styling changes
 
 ##Webbplats för Relasian
 
