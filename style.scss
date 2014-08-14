@@ -179,13 +179,22 @@ nav {
 //
 #main{
   padding:20px;
-  background-color: $whiteo;
+  background-color: $green;
+  border-top: 1px solid $whiteo;
+  border-bottom: 1px solid $dakgreen;
 }
 .posts > .post {
   padding: 2em;
-  margin: 10px 2.5%;
+}
+.preview{
+  padding: 10px;
   border-top: 1px solid $whiteo;
-  border-bottom: 1px solid $whiteo;
+  border-bottom: 1px solid $darkgreen;
+  p{
+    border-top: 1px dotted $darkgreen;
+    text-align: center;
+    color:$green;
+  }
 }
 /*************
 POST
@@ -213,12 +222,16 @@ POST
     color: $green;
   }
 }
+.entry p:nth-child(2n){
+  color: $gray;
+};
+
 /**************
 FOOTER
 **************/
 .wrapper-footer {
   padding-top: 50px;
-  border-top: 1px solid $green;
+  border-top: 1px solid $whiteo;
   border-bottom: 1px solid $green;
 }
 
