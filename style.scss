@@ -180,6 +180,10 @@ nav {
 #main{
   padding:20px;
   background-color: $green;
+  border-top: 1px solid $whiteo;
+  border-left: 1px solid $whiteo;
+  border-bottom: 1px solid $green;
+  border-right: 1px solid $green;
 }
 .posts > .post {
   padding: 2em;
@@ -187,7 +191,9 @@ nav {
 .preview{
   padding: 10px;
   border-top: 1px solid $whiteo;
-  border-bottom: 1px solid $whiteo;
+  border-left: 1px solid $whiteo;
+  border-bottom: 1px solid $green;
+  border-right: 1px solid $green;
   p{
     border-top: 1px dotted $darkgreen;
     text-align: center;
@@ -225,8 +231,6 @@ FOOTER
 **************/
 .wrapper-footer {
   padding-top: 50px;
-  border-top: 1px solid $green;
-  border-bottom: 1px solid $green;
 }
 
 footer {
