@@ -223,6 +223,12 @@ POST
     color: $green;
   }
 }
+p:nth-child(2){
+color: $gray;
+}
+h2:nth-child(2){
+color: $gray;
+}
 /**************
 FOOTER
 **************/
