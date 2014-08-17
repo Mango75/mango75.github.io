@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;  
   line-height: 1.7em;
   margin: 0.5em 0 15px;
+  padding: 0;
   text-align: center;
 }
   
@@ -137,12 +138,14 @@ img {
 }
 
 .site-name {
+  margin: 0;
   color: $green;
   cursor: pointer;
   font-family: $montserrat; 
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .site-description {
@@ -152,7 +155,6 @@ img {
 }
 header{
 padding:50px 0 20px; 
-border-bottom:1px solid $green; 
 }
 
 nav {
@@ -214,13 +216,10 @@ POST
     text-transform: uppercase;
     font-size: 15px;
   }
-  a{
+  .post a{
     color: $green;
   }
 }
-.post .entry p{
-  color: $gray;
-  }
 /**************
 FOOTER
 **************/
