@@ -149,12 +149,14 @@ img {
 }
 
 .site-description {
+  margin: -5px 0 0 0;
   color: $green;
   font-size: 16px;
   font-family: $montserrat;
 }
 header{
-padding:50px 0 20px; 
+padding:50px 0 20px;
+border-bottom:1px solid $green; 
 }
 
 nav {
@@ -178,8 +180,6 @@ nav {
 #main{
   padding:20px;
   background-color: $green;
-  border-top: 1px solid $whiteo;
-  border-bottom: 1px solid $dakgreen;
 }
 .posts > .post {
   padding: 2em;
@@ -187,12 +187,12 @@ nav {
 .preview{
   padding: 10px;
   border-top: 1px solid $whiteo;
-  border-bottom: 1px solid $darkgreen;
-}
-.preview p{
+  border-bottom: 1px solid $whiteo;
+  p{
     border-top: 1px dotted $darkgreen;
     text-align: center;
     color:$green;
+  }
 }
 /*************
 POST
@@ -225,7 +225,7 @@ FOOTER
 **************/
 .wrapper-footer {
   padding-top: 50px;
-  border-top: 1px solid $whiteo;
+  border-top: 1px solid $green;
   border-bottom: 1px solid $green;
 }
 
