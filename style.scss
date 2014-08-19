@@ -156,7 +156,6 @@ img {
 }
 header{
 padding:50px 0 20px;
-border-bottom:1px solid $green; 
 }
 
 nav {
@@ -223,12 +222,13 @@ POST
     color: $green;
   }
 }
-p:nth-child(2){
+.entry p:nth-child(2){
 color: $lightGray;
 }
-h2:nth-child(2){
+.entry h2:nth-child(2){
 color: $lightGray;
 }
+
 /**************
 FOOTER
 **************/
