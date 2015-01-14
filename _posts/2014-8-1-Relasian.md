@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relasian
-category: <web>
+category: web
 ---
 
 ![picture from Relasian]({{site.url}}/images/rela1.png)
